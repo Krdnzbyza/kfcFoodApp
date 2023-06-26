@@ -16,8 +16,8 @@ final class SplashView: UIViewController, UIScrollViewDelegate {
         return SplashViewLoad(
             view: view,
             scrollDelegate: self,
-            useCase: SplashUseCase(splashViewNavigate: splashViewNavigate),
-            onPressed: { })
+            useCase: SplashUseCase(splashViewNavigate: splashViewNavigate)
+        )
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
