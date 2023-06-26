@@ -11,8 +11,8 @@ import Foundation
 struct SplashUseCase {
     let splashViewNavigate: SplashViewNavigate
     func operation(value: Bool) {
-            if value {
-                splashViewNavigate.navigateLogin()
-            }
+        if value {
+            splashViewNavigate.navigateLogin()
+        }
     }
 }

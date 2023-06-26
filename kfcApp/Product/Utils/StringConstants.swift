@@ -8,10 +8,8 @@
 import Foundation
 
 
-final class Constants {
+final class StringConstants {
     private init() { }
-
-
     static let loginTitle: String = "Welcome back,"
     static let loginDescription: String = "Glad to meet you again!, please login to use the app."
     static let email: String = "Email"
@@ -22,4 +20,7 @@ final class Constants {
     static let splashText2: String = "Don't know what to eat? Take a picture, we'll suggest things to cook with your ingredients"
     static let splashText3: String = "Delicous food is waiting for you"
     static let splashbutton: String = "Get Started"
+    static let loginOr: String = "veya"
+    static let signIn: String = "Sign In"
+    static let signInGoogle: String = "Sign In with Google"
 }

@@ -14,6 +14,4 @@ struct SplashViewNavigate {
         let loginViewController = LoginViewController()
         self.vc.navigationController?.pushViewController(loginViewController, animated: true)
     }
-    func home() {
-    }
 }

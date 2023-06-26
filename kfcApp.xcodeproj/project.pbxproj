@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B59EF5992A4957BE007BE595 /* AssetsPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59EF5982A4957BE007BE595 /* AssetsPath.swift */; };
+		B59EF59B2A495B00007BE595 /* LoginViewConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59EF59A2A495B00007BE595 /* LoginViewConstraints.swift */; };
+		B59EF59D2A495B66007BE595 /* SplashViewLoad+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59EF59C2A495B66007BE595 /* SplashViewLoad+Constraints.swift */; };
 		B5F324512A4781EE00E0AFA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F324502A4781EE00E0AFA2 /* AppDelegate.swift */; };
 		B5F324532A4781EE00E0AFA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F324522A4781EE00E0AFA2 /* SceneDelegate.swift */; };
 		B5F324552A4781EE00E0AFA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F324542A4781EE00E0AFA2 /* ViewController.swift */; };
@@ -19,7 +22,7 @@
 		B5F324832A47853100E0AFA2 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F324822A47853100E0AFA2 /* SplashView.swift */; };
 		B5F324862A4790EE00E0AFA2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F324852A4790EE00E0AFA2 /* LoginView.swift */; };
 		B5F3248B2A47981400E0AFA2 /* UIColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3248A2A47981400E0AFA2 /* UIColor+AppColors.swift */; };
-		B5F3248D2A47A38300E0AFA2 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3248C2A47A38300E0AFA2 /* Contants.swift */; };
+		B5F3248D2A47A38300E0AFA2 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3248C2A47A38300E0AFA2 /* StringConstants.swift */; };
 		B5F3248F2A47A9F000E0AFA2 /* SplashViewLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3248E2A47A9F000E0AFA2 /* SplashViewLoad.swift */; };
 		B5F324912A47AD0300E0AFA2 /* SplashViewNavigate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F324902A47AD0300E0AFA2 /* SplashViewNavigate.swift */; };
 		B5F324932A47AEE400E0AFA2 /* SplashViewUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F324922A47AEE400E0AFA2 /* SplashViewUseCase.swift */; };
@@ -43,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B59EF5982A4957BE007BE595 /* AssetsPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsPath.swift; sourceTree = "<group>"; };
+		B59EF59A2A495B00007BE595 /* LoginViewConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewConstraints.swift; sourceTree = "<group>"; };
+		B59EF59C2A495B66007BE595 /* SplashViewLoad+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SplashViewLoad+Constraints.swift"; sourceTree = "<group>"; };
 		B5F3244D2A4781EE00E0AFA2 /* kfcApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kfcApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F324502A4781EE00E0AFA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5F324522A4781EE00E0AFA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +65,7 @@
 		B5F324822A47853100E0AFA2 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		B5F324852A4790EE00E0AFA2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B5F3248A2A47981400E0AFA2 /* UIColor+AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColors.swift"; sourceTree = "<group>"; };
-		B5F3248C2A47A38300E0AFA2 /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		B5F3248C2A47A38300E0AFA2 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		B5F3248E2A47A9F000E0AFA2 /* SplashViewLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewLoad.swift; sourceTree = "<group>"; };
 		B5F324902A47AD0300E0AFA2 /* SplashViewNavigate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewNavigate.swift; sourceTree = "<group>"; };
 		B5F324922A47AEE400E0AFA2 /* SplashViewUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewUseCase.swift; sourceTree = "<group>"; };
@@ -159,6 +165,7 @@
 				B5F3248E2A47A9F000E0AFA2 /* SplashViewLoad.swift */,
 				B5F324902A47AD0300E0AFA2 /* SplashViewNavigate.swift */,
 				B5F324922A47AEE400E0AFA2 /* SplashViewUseCase.swift */,
+				B59EF59C2A495B66007BE595 /* SplashViewLoad+Constraints.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -167,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				B5F324852A4790EE00E0AFA2 /* LoginView.swift */,
+				B59EF59A2A495B00007BE595 /* LoginViewConstraints.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -183,7 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				B5F324892A4797E400E0AFA2 /* Extension */,
-				B5F3248C2A47A38300E0AFA2 /* Contants.swift */,
+				B5F3248C2A47A38300E0AFA2 /* StringConstants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -192,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				B5F3248A2A47981400E0AFA2 /* UIColor+AppColors.swift */,
+				B59EF5982A4957BE007BE595 /* AssetsPath.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -331,12 +340,15 @@
 				B5F324552A4781EE00E0AFA2 /* ViewController.swift in Sources */,
 				B5F324512A4781EE00E0AFA2 /* AppDelegate.swift in Sources */,
 				B5F324832A47853100E0AFA2 /* SplashView.swift in Sources */,
-				B5F3248D2A47A38300E0AFA2 /* Contants.swift in Sources */,
+				B5F3248D2A47A38300E0AFA2 /* StringConstants.swift in Sources */,
 				B5F324862A4790EE00E0AFA2 /* LoginView.swift in Sources */,
 				B5F324532A4781EE00E0AFA2 /* SceneDelegate.swift in Sources */,
+				B59EF5992A4957BE007BE595 /* AssetsPath.swift in Sources */,
 				B5F3248B2A47981400E0AFA2 /* UIColor+AppColors.swift in Sources */,
+				B59EF59B2A495B00007BE595 /* LoginViewConstraints.swift in Sources */,
 				B5F324932A47AEE400E0AFA2 /* SplashViewUseCase.swift in Sources */,
 				B5F324912A47AD0300E0AFA2 /* SplashViewNavigate.swift in Sources */,
+				B59EF59D2A495B66007BE595 /* SplashViewLoad+Constraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
