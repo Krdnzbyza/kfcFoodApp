@@ -21,6 +21,6 @@ final class StringConstants {
     static let splashText3: String = "Delicous food is waiting for you"
     static let splashbutton: String = "Get Started"
     static let loginOr: String = "veya"
-    static let signIn: String = "Sign In"
-    static let signInGoogle: String = "Sign In with Google"
+    static let logIn: String = "Log In"
+    static let logInGoogle: String = "Log In with Google"
 }

@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension LoginViewController {
+extension LoginViewLoad {
     func setupConstraints() {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         loginDescription.translatesAutoresizingMaskIntoConstraints = false
