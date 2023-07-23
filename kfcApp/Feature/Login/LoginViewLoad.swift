@@ -48,10 +48,10 @@ final class LoginViewLoad {
 
         let userIconPasswordImage = UIImage(named: UIImage.userIconImagePassword)
         let userIconPasswordImageView = UIImageView(image: userIconPasswordImage)
-//        let showPaswordImage = UIImage(named: UIImage.showPasword)
-//        let userShowIconPasswordImageView = UIImageView(image: showPaswordImage)
-//        passwordTextField.rightView = userShowIconPasswordImageView
-//        passwordTextField.rightView = .always
+        let showPaswordImage = UIImage(named: UIImage.showPasword)
+        let userShowIconPasswordImageView = UIImageView(image: showPaswordImage)
+        passwordTextField.rightView = userShowIconPasswordImageView
+        passwordTextField.rightViewMode = .always
         passwordTextField.leftViewMode = .always
         passwordTextField.leftView = userIconPasswordImageView
         passwordTextField.placeholder = StringConstants.password
