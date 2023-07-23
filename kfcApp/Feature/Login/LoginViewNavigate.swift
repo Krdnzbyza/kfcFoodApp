@@ -11,7 +11,7 @@ import UIKit
 struct LoginViewNavigate {
     let vc: UIViewController
     func navigateHome() {
-        let loginView = LoginView()
-        self.vc.navigationController?.pushViewController(loginView, animated: true)
+     /// navigate Home Screen with vc
+    
     }
 }
