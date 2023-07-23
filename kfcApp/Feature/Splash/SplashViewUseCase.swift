@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct SplashUseCase {
     let splashViewNavigate: SplashViewNavigate
     func operation(value: Bool) {

@@ -14,4 +14,5 @@ extension UIImage {
     static let googleIcon = "googleIcons"
     static let splashBackgroundImage = "background"
     static let kfcLogo = "kfcLogo"
+    static let showPasword = "showPassword"
 }
