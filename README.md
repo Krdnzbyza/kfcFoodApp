@@ -5,5 +5,5 @@
 <img src="https://github.com/Krdnzbyza/kfcFoodApp/assets/57248151/57e2de71-8f02-46ce-880c-ae389f051fbe.png" width="200" height="450">
 
 ## Log In Screen
-<img src="https://github.com/Krdnzbyza/kfcFoodApp/assets/57248151/e234f627-3a7e-4b71-a7c0-c0c6cbf15fec.png" width="200" height="450">
+<img src="https://github.com/Krdnzbyza/kfcFoodApp/assets/57248151/e9ca2297-ba24-4728-9034-eaa8d86ebc36" width="200" height="450">
 
